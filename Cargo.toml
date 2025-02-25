@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+"tools/code-converter"
+]
+
+[workspace.dependencies]
+thiserror = "1.0.59"
+async-trait = "0.1.80"
